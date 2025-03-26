@@ -1,0 +1,1 @@
+O código implementa uma API REST simples para gerenciar usuários. Ela permite criar, listar e deletar usuários de um array em memória. As operações são realizadas através de três rotas (POST /usuarios, GET /usuarios, DELETE /usuarios/{id}).
