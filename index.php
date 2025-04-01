@@ -25,7 +25,7 @@ $errorMiddleware->setErrorHandler(HttpNotFoundException::class, function (
     ->withStatus (404);
 });
  
-$app->get('/tarefas', function (Request $request, Response $response, array $args ){
+$app->get('/tarefas', Function (Request $request, Response $response, array $args ){
     $tarefas =[
         ["id" => 1, "titulo" => "Ler a Documentação do Slim", "falso" => false],
         ["id" => 2, "titulo" => "Ler a Documentação do composer", "concluido" => true],
